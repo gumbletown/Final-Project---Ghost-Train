@@ -1,5 +1,6 @@
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FBF1EF;
 }
 
 .header {
@@ -8,8 +9,7 @@ body {
 
 #logo img {
 
-	padding-top: 10px;
-	padding-bottom: 12px;
+	padding: 12px 0 12px 10px;
   text-align: left;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .menuItem {
-  color: black;
+  color: #031424;
   text-decoration: none;
 
 }
@@ -43,6 +43,18 @@ body {
 
 .contactMenu {
   padding-right: 40px;
+  padding-top: 10px;
+}
+
+#teamOverview h3 {
+  color: #FBF1EF;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  font-weight: lighter;
+  background-color: #031424;
+  width: 150px;
+  border-radius: 0 5px;
 }
 
 .teamOverviewTop {
@@ -54,12 +66,210 @@ body {
 .teamOverviewBottom {
   display: flex;
   justify-content: space-between;
-  height: 300px;
+  height: 280px;
   
 }
 
-.teamOverviewImg {
-  margin-bottom: 5px;
-  width: 48%;
-  background-color: red;
+.teamOverviewCD {
+ 
+  width: 50%;
+  background-image: url("../images/creative-directors-tile.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  
+}
+
+.teamOverviewMu {
+
+  width: 50%;
+  background-image: url("../images/underwater-girl-1200.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  
+}
+.teamOverviewCo {
+  width: 50%;
+  background-image: url("../images/musicians-juge.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  
+}
+.teamOverviewPr {
+  width: 50%;
+  color: black;
+  background-image: url("../images/red-room-producer.jpg");
+  background-size: cover;
+  background-position: 50% 20%;
+  
+}
+
+.team-strip {
+  display: block;
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #031424;
+  color: #FBF1EF;
+}
+
+#cds {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bioText h3 a {
+  text-decoration: none;
+  color: #CF6766;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+.cdsBio {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bioText {
+  width: 45%;
+  padding: 20px;
+  
+}
+
+.bioText p {
+  color: #30415D;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#bioImgJonn {
+  width: 45%;
+  background-image: url("../images/jonnine-team-page.jpg");
+  background-size: cover;
+  padding: 0 10px 10px 10px;
+}
+
+#bioImgJas {
+  width: 45%;
+  background-image: url("../images/jasmin-team-page.jpg");
+  background-size: cover;
+  padding: 0 10px 10px 10px;
+}
+
+#collaborators {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.collaBio {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#bioImgHeckler {
+  width: 45%;
+  background-image: url("../images/heckler.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 10px 10px 10px;
+}
+
+#bioImgEness {
+  width: 45%;
+  background-image: url("../images/ENESS+sonic+light+bubble_0920+1440.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 10px 10px 10px;
+}
+
+#bioImgBrustman {
+  width: 45%;
+  background-image: url("../images/brustmanboyde.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 10px 10px 10px;
+}
+
+#musicians {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#bioImgMika {
+  width: 45%;
+  background-image: url("../images/Mika.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 10px 10px 10px;
+}
+
+#bioImgHtrk {
+  width: 45%;
+  background-image: url("http://www.cyclicdefrost.com/wp-content/HTRK-by-Jeremy-Yang.jpg");
+  background-size: cover;
+  background-position: 80% 50%;
+  padding: 0 10px 10px 10px;
+}
+
+#bioImgLawrence {
+  width: 45%;
+  background-image: url("../images/lawrence.english.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 10px 10px 10px;
+}
+
+
+#producer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prodText {
+  width: 33%;
+  padding: 20px;
+}
+
+.prodText h3 a {
+  text-decoration: none;
+  color: #CF6766;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+.prodText p {
+  font-size: 14px;
+  padding-top: 10px;
+  column-count: 2;
+  color: #30415D;
+  line-height: 1.4;
+}
+
+
+.prodVideoL {
+  padding-top: 20px;
+  width: 30%;
+}
+
+.prodVideoR {
+  padding-top: 20px;
+  width: 30%;
 }
